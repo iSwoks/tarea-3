@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cotizador de créditos</title>
+  </head>
+  <body>
+    <form id="loan-form">
+      <div>
+        <label for="amount">Cantidad a financiar:</label>
+        <input type="text" id="amount" name="amount" />
+      </div>
+      <div>
+        <label for="interest">Interés:</label>
+        <input type="text" id="interest" name="interest" />
+      </div>
+      <div>
+        <label for="years">Años:</label>
+        <input type="text" id="years" name="years" />
+      </div>
+      <button type="submit">Calcular</button>
+    </form>
+
+    <div>
+      <p>Cuota mensual: <span id="monthly-payment"></span></p>
+      <p>Pago total: <span id="total-payment"></span></p>
+    </div>
+
+    <div id="error"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
