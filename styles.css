@@ -1,0 +1,83 @@
+/* Estilo para el cuerpo de la página */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para el encabezado */
+header {
+  background-color: #3399cc;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo para el mensaje de bienvenida */
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+/* Estilo para el formulario */
+form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+}
+
+/* Estilo para las etiquetas de los campos */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0px 1px 3px #eee;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Estilo para el botón de enviar */
+button[type="submit"] {
+  background-color: #3399cc;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Estilo para la sección de resultados */
+div {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+}
+
+/* Estilo para el mensaje de error */
+#error {
+  background-color: #ff9999;
+  border: 1px solid #cc6666;
+  border-radius: 3px;
+  color: #cc6666;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
